@@ -6,4 +6,4 @@ services:
     volumes:
       - ./reports:/opt/robotframework/reports
       - ./tests:/opt/robotframework/tests
-    network_mode: host
+      - ./resources:/opt/robotframework/resources

@@ -1,0 +1,9 @@
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Style checking
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install robotframework-robocop
+      - run: robocop

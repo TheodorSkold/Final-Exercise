@@ -11,20 +11,14 @@ Input Search
 
 *** Test Cases ***
 Robot Framework Fundamentals Training Is One Day
-    Open Browser firstpage
+    Open Browser Mainpage
     Search For Robot
     Input Search
-    Sleep    5s
     Press Keys    id=cd-search >> css=input  Enter
-    Sleep    5s
     Click    text=Framework fundamentals training
-    Sleep    5s
     Get Text    body    contains    One day
 
 Stockholm Office Is Visible In Sweden Contact Info
-    Open Browser Kontakt
-    Sleep    5s
+    Open Browser Contacts
     Click    xpath=//div/ul/li/a[text()="Sweden"]
-    Sleep    5s
     Get Text    body    contains    Vasagatan 36
-    Sleep    5s

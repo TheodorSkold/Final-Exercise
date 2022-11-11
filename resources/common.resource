@@ -4,12 +4,12 @@ Library    Browser
 
 *** Keywords ***
 
-Open Browser Firstpage
+Open Browser Mainpage
     New Browser    headless=${FALSE}
     New Page    ${URL}
 
 
-Open Browser Kontakt
+Open Browser Contacts
     New Browser    headless=${FALSE}
     New Page    ${URL2}
 

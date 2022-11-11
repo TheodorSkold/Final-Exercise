@@ -17,6 +17,8 @@ Robot Framework Fundamentals Training Is One Day
     Sleep    5s
     Press Keys    id=cd-search >> css=input  Enter
     Sleep    5s
+    Click    text=Framework fundamentals training
+    Sleep    5s
     Get Text    body    contains    One day
 
 Stockholm Office Is Visible In Sweden Contact Info

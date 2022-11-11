@@ -22,7 +22,7 @@ Robot Framework Fundamentals Training Is One Day
 Stockholm Office Is Visible In Sweden Contact Info
     Open Browser Kontakt
     Sleep    5s
-    Click    xpath=//div/u1/li/a[text()="Sweden"]
+    Click    xpath=//div/ul/li/a[text()="Sweden"]
     Sleep    5s
     Get Text    body    contains    Vasagatan 36
     Sleep    5s
